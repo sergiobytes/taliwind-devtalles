@@ -1,5 +1,6 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700&display=swap");
 
+@import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -15,6 +16,8 @@
   --color-gold-900: oklch(27.2% 0.09 100);
   --color-gold-950: oklch(16% 0.06 100);
   --color-gold-950: oklch(0.01 0.005 123.39);
+
+  --font-montserrat-alternates: "Montserrat Alternates", sans-serif;
 }
 
 @layer base {
